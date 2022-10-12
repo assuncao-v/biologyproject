@@ -7,21 +7,26 @@
     <title>InterHosp - Cadastro</title>
 </head>
 <body>
-    <form action="">
-        <label for="">Digite seu nome completo: </label>
-        <input type="text" name="nomeUsuario">
+    <form action="../php/dados.php" method="post">
+        <label for="">Digite seu nome completo: </label><br>
+        <input type="text" name="nome"><br>
 
-        <label for="">Digite seu CPF: </label>
-        <input type="number" name="cpf">
+        <label for="">Digite seu CPF: </label><br>
+        <input type="number" name="cpf"><br>
 
-        <label for="">Digite seu número de telefone: </label>
-        <input type="number" name="telefone">
+        <label for="">Digite seu telefone: </label><br>
+        <input type="number" name="telefone"><br>
 
-        <label for="">Digite seu email: </label>
-        <input type="email" name="email">
+        <label for="">Digite seu email: </label><br>
+        <input type="email" name="email"><br>
 
-        <label for="">Digite sua senha: </label>
-        <input type="text" name="senha">
+        <label for="">Digite seu endereço: </label><br>
+        <input type="text" name="endereco"><br>
+
+        <label for="">Digite sua senha: </label><br>
+        <input type="text" name="senha"><br><br>
+
+        <input type="submit" value="Cadastrar">
     </form>
 </body>
 </html>
