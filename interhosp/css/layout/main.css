@@ -7,7 +7,7 @@ main h2 {
 }
 
 main p {
-    margin: 0, 15px;
+    margin: 0, 30px, 0px, 0px;
 }
 main div{
     width: 60%;

@@ -15,19 +15,21 @@
 
 nav {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color: #40F99B;
     height: 16vh;
+    width: 100vw;
 }
 
 nav img {
-    width: 85px;
+    width: 90px;
     height: 16vh;
 }
 
 nav ul {
     display: flex;
+    
+    
 }
 
 #nav-list li {
