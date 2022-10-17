@@ -1,0 +1,53 @@
+/*Navbar*/
+#nav-list a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+#nav-list a:hover {
+    opacity: 0.7;
+}
+
+#logo {
+    background: url(../images/logoPequena.png);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #40F99B;
+    height: 16vh;
+}
+
+nav img {
+    width: 85px;
+    height: 16vh;
+}
+
+#nav-list li {
+    letter-spacing: 3px;
+    list-style: none;
+    margin-left: 32px;
+}
+
+#mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+#mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+}
+
+@media (max-width: 999px) {
+    #nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+    }
+}

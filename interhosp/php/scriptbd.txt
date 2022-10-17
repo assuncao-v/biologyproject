@@ -6,6 +6,7 @@ CREATE TABLE usuario(
     cpf bigint(20),
     telefone bigint(20),
     email varchar(50),
+    cep varchar(50),
     endereco varchar(200),
     senha varchar(50)
 );

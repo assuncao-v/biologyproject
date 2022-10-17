@@ -4,17 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
     <title>InterHosp - Login</title>
 </head>
 <body>
-    <form action="">
-        <label for="">Digite seu Nome/CPF/Telefone: </label>
-        <input type="text" name="nomeUsuario" id="nomeUsuario">
+    <header>
+        <nav>
+            <img id="imgPequena" src="../images/logoPequena.png" alt="Logo - InterHosp">
+            <ul>
+                <li><a href="../index.html" class="link">Início</a></li>
+                <li><a href="./quemSomos.html" class="link">Quem Somos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="../images/logoGrande.png" alt="Logo - Interhosp" id="imgGrande">
+        <form action="">
+            <label for="">Digite seu Nome/CPF/Telefone: </label><br>
+            <input type="text" name="nomeUsuario" id="nomeUsuario"><br>
 
-        <label for="">Digite sua senha: </label>
-        <input type="text" name="senhaUsuario" id="senhaUsuario">
+            <label for="">Digite sua senha: </label><br>
+            <input type="text" name="senhaUsuario" id="senhaUsuario"><br>
 
-        <input type="submit" value="Entrar!">
-    </form>
+            <input type="submit" value="Entrar!" id="btEnvia">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

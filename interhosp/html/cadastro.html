@@ -1,32 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cadastro/cadastro.css">
     <title>InterHosp - Cadastro</title>
 </head>
+
 <body>
-    <form action="../php/dados.php" method="post">
-        <label for="">Digite seu nome completo: </label><br>
-        <input type="text" name="nome"><br>
+    <header>
+        <nav>
+            <img id="imgPequenaCd" src="../images/logoPequena.png" alt="Logo - InterHosp">
+            <ul>
+                <li><a href="../index.html" class="linkCd">Início</a></li>
+                <li><a href="./quemSomos.html" class="linkCd">Quem Somos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img id="logoCD" src="../images/logoGrande.png" alt="">
+        <form id="formCad" action="../php/dados.php" method="post">
+            <label for="">Digite seu nome completo: </label><br>
+            <input type="text" name="nome"><br><br> 
 
-        <label for="">Digite seu CPF: </label><br>
-        <input type="number" name="cpf"><br>
+            <label for="">Digite seu CPF: </label><br>
+            <input type="number" name="cpf"><br><br>
 
-        <label for="">Digite seu telefone: </label><br>
-        <input type="number" name="telefone"><br>
+            <label for="">Digite seu telefone: </label><br>
+            <input type="number" name="telefone"><br><br>
 
-        <label for="">Digite seu email: </label><br>
-        <input type="email" name="email"><br>
+            <label for="">Digite seu email: </label><br>
+            <input type="email" name="email"><br><br>
 
-        <label for="">Digite seu endereço: </label><br>
-        <input type="text" name="endereco"><br>
+            <label for="">Digite seu CEP: </label><br>
+            <input type="text" name="cep"><br><br>
 
-        <label for="">Digite sua senha: </label><br>
-        <input type="text" name="senha"><br><br>
+            <label for="">Digite seu endereço: </label><br>
+            <input type="text" name="endereco"><br><br>
 
-        <input type="submit" value="Cadastrar">
-    </form>
+            <label for="">Digite sua senha: </label><br>
+            <input type="password" name="senha"><br><br>
+
+            <input type="submit" value="Cadastrar" id="btCadastro">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
