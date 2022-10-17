@@ -5,4 +5,11 @@
 /*Layout*/
 
 /*Header*/
-@import url(./css/layout/header.css)
+@import url(./css/layout/header.css);
+
+/*Main*/
+@import url(./css/layout/main.css);
+
+/* FOOTER */
+
+@import url(./css/layout/footer.css);

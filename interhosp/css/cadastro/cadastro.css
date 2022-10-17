@@ -30,6 +30,9 @@ li{
     font-size: 18px;
     margin-bottom: 20px;
 }
+.linkCd:hover{
+    opacity: 0.7;
+}
 main{
     width: 17%;
     margin: 0 auto;
