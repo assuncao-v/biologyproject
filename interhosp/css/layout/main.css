@@ -3,7 +3,9 @@ main{
     margin-top: 20px;
 }
 main h2 {
-    margin: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
 }
 
 main p {
@@ -16,3 +18,19 @@ main div{
     margin-right: 150px;
     margin-left: 50px;
 }
+
+main li{
+    list-style: none;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main ul{
+    display: flex;
+
+}
+main img{
+    width: 20%;
+}
+
+
