@@ -1,0 +1,12 @@
+CREATE DATABASE interhosp;
+
+CREATE TABLE usuario(
+    idusuario int PRIMARY KEY AUTO_INCREMENT,
+	nome varchar(50),
+    cpf bigint(20),
+    telefone bigint(20),
+    email varchar(50),
+    cep varchar(50),
+    endereco varchar(200),
+    senha varchar(50)
+);
